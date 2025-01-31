@@ -1,6 +1,8 @@
 # 🚀 dio-java-basico
 
-![Java](https://upload.wikimedia.org/wikipedia/pt/3/30/Java_programming_language_logo.svg)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/pt/3/30/Java_programming_language_logo.svg" alt="Java">
+</p>
 
 Repositório criado para armazenar os códigos e exercícios realizados durante o curso **"Java Básico"** na [DIO (Digital Innovation One)](https://www.dio.me/).
 
@@ -27,7 +29,6 @@ Java é uma das linguagens de programação mais populares do mundo, conhecida p
 - **Git e GitHub para versionamento**
 - **Maven/Gradle (para gerenciamento de dependências em projetos mais avançados)**
 
-
 ## 📷 Imagens e Recursos
 Aqui está um exemplo de código simples em Java:
 ```java
@@ -37,8 +38,5 @@ public class Main {
     }
 }
 ```
-![Java Code](https://www.jrebel.com/sites/default/files/image/2020-05/image-blog-reasons-to-learn-java.png)
-
 ---
 📢 **Acompanhe o progresso deste repositório e fique à vontade para contribuir com sugestões!**
-
