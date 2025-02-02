@@ -1,50 +1,27 @@
-# 🚀 Variáveis em Java
+# 💰 Desafio: Conta Banco
 
-As variáveis armazenam dados que podem ser usados no programa. Em **Java**, cada variável tem um tipo específico.
+Este projeto consiste na criação de um programa Java chamado **ContaBanco**, que receberá dados via terminal e exibirá uma mensagem personalizada ao usuário.
 
-## 📌 Como declarar uma variável
-Para declarar uma variável, usamos a estrutura:
-```java
-Tipo nome = valor;
-```
-### 🛠 Exemplo:
-```java
-int idade = 25;
-String nome = "João";
-boolean ativo = true;
-```
+## 📌 Requisitos do Desafio
 
-## 🔢 Tipos de variáveis em Java
-Java possui diferentes tipos de variáveis, dependendo do dado armazenado:
+- Criar a classe `ContaTerminal.java` para a implementação.
+- Solicitar os seguintes dados via terminal:
 
-| Tipo    | Descrição            | Exemplo |
-|---------|----------------------|---------|
-| `int`   | Números inteiros     | `int idade = 30;` |
-| `double`| Números decimais     | `double preco = 19.99;` |
-| `char`  | Um único caractere   | `char letra = 'A';` |
-| `boolean` | Verdadeiro ou falso | `boolean ativo = true;` |
+| Atributo       | Tipo    | Exemplo          |
+|---------------|--------|----------------|
+| Número da Conta | `int`   | 1021            |
+| Agência       | `String` | 067-8           |
+| Nome do Cliente | `String` | MARIO ANDRADE   |
+| Saldo         | `double` | 237.48          |
 
-## 🎯 Exemplo prático
-```java
-public class Variaveis {
-    public static void main(String[] args) {
-        int numero = 10;
-        double preco = 19.99;
-        char letra = 'A';
-        boolean ativo = true;
+- Utilizar a classe **Scanner** para capturar entradas do usuário.
+- Exibir uma mensagem final formatada com os dados coletados.
 
-        System.out.println("Número: " + numero);
-        System.out.println("Preço: " + preco);
-        System.out.println("Letra: " + letra);
-        System.out.println("Ativo: " + ativo);
-    }
-}
-```
+## 📚 Conceitos Utilizados
 
-## 📚 Dicas importantes
-✅ Sempre inicialize suas variáveis para evitar erros.  
-✅ Use nomes descritivos para facilitar a leitura do código.  
-✅ Respeite a **case sensitivity** do Java (`idade` e `Idade` são diferentes).  
-
----
-🔥 **Dominar variáveis é um passo essencial para aprender Java!** 💡
+| Conceito                | Descrição |
+|-------------------------|-----------|
+| **Declaração de Variáveis** | Definição e uso de variáveis para armazenar dados. |
+| **Classe Scanner** | Captura de entrada do usuário via terminal. |
+| **Método `main(String[] args)`** | Ponto de entrada do programa em Java. |
+| **Manipulação de Strings** | Concatenação e formatação de texto para exibição. |
